@@ -40,6 +40,7 @@ a[ni+j]=b[j];
         -On Intel Nehalem, integer multiply requires 3 CPU cycles
 * Recognize sequence of products
 <b>
+ 
 ```c
 //before optimization
 for(i=0;i<n;i++){
@@ -67,6 +68,7 @@ for(i=0;i<n;i++){
 * Reuse portions of expressions
 * GCC will do this with -O1
 <b>  
+ 
 ```c
 up = val[(i-1)*n + j];
 down = val[(i+1)*n + j];
