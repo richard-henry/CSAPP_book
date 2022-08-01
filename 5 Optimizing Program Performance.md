@@ -9,6 +9,7 @@
   * if it will always produce same result
   * Especially moving code out of loop
 <b>
+
 ```c
 //before optimization
 long j;
